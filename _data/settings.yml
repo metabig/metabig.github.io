@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-title: Building...
+title: Metabig Blog
 logo: logo.svg # You can add own logo.
 description: Zolan is modern minimal theme for Jekyll
 
@@ -16,11 +16,7 @@ author:
 
 #-------------------------------
 # Contact links
-twitter: https://twitter.com/ # Add your Twitter handle
-facebook: https://facebook.com/ # Add your Facebook handle
-dribbble: https://dribbble.com/ # Add your Dribbble handle
-instagram: https://instagram.com/ # Add your Instagram handle
-pinterest: https://pinterest.com/ # Add your Pinterest handle
+instagram: https://www.instagram.com/tonibergas/ # Add your Instagram handle
 
 
 #-------------------------------
@@ -30,15 +26,5 @@ disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example
 
 #-------------------------------
 # Instagram Feed
-instafeed: # To enable the instafeed, use the value true. To turn off use the value false.
-instagram-profile: artemsheludko_ # Add instagram username
-
-
-#-------------------------------
-# Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
-
-
-#-------------------------------
-# Newsletter
-mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+instagram-profile: tonibergas # Add instagram username

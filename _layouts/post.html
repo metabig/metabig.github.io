@@ -100,23 +100,5 @@ layout: default
       </p>
     </div>
     {% endif %}
-
-    {% if page.next.url %}
-    <div class="next">
-      <a class="post__nav__image" href="{{ site.baseurl }}{{page.next.url}}" style="background-image: url({{site.baseurl}}/images/{{page.next.image}})">
-      </a>
-      <h2 class="post__nav__title">
-        <a href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a>
-        <i class="ion ion-md-arrow-forward"></i>
-      </h2>
-      <p class="next__excerpt">
-        {% if page.next.description %}
-          {{ page.next.description }}
-        {% else %}
-          {{ page.next.content | strip_html | truncate: 110 }}
-        {% endif %}
-      </p>
-    </div>
-    {% endif %}
   </div>
   </div>

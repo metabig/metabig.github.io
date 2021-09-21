@@ -54,10 +54,23 @@ invariante que solo depende de la clave.
 + Data Encryption Standard(DES): Elaborado por IBM el 1976. Hace lo de Shannon. Clave de 56 bits + 8 de paridad.
 Algoritmo conocido. El descifrado usa el mismo algoritmo. La permutación inical y la permutación final no son
 criptográficamente significativas. Las 16 rondas F son todas idénticas. Función Feistel (Expansión, Mezcla, Sustitución,
-Permutación). Sustitución y permutación -> Confusión y difusión. 2 a la 56 combinaciones.
-
+Permutación). Sustitución y permutación -> Confusión y difusión. 2 a la 56 combinaciones. Como era fácilmente rompible se
+creó el 3DES -> Hacerlo 3 veces.
++ Advanced Encryption Standard (AES): 
+	+ Reemplaza el DES
+	+ Algoritmo conocido, se organizan en una matriz y usa una clave.
+El cifrado de bloques es malo para la telefonía ya que los flujos de datos se producen en pequeños fragmentos.
+Se usan técnicas de cifrado **incremental**.
+#### Problemas
++ Distribución de la clave:  Los usuarios deben intercambiarse la clave antes de empezar la comunicación
++ Gestión de la clave
++ Firma digital
 ### Criptografia pública o asimetrica
-
++ Cada extremo posee dos claves, una pública y una privada
++ Algoritmos conocidos
++ No necesita intercambio de claves
+El usuario A envia un mensaje al usuario B -> Primero A lo encripta usando la clave pública y luego B lo desencripta con
+la clave privada.
 
 
 
